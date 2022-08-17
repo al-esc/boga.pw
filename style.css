@@ -49,8 +49,6 @@ article {
     gap: 20px;
     justify-content: space-between;
     align-content: space-between;
-    /*column-count: 3;*/
-    /*column-gap: 25px;*/
     border-radius: 20px;
     padding: 3vw;
     margin-left: auto;
@@ -82,6 +80,6 @@ article {
     );
 }
 video {
-    max-width:460px;
+    max-width:74vw;
     flex-basis: 30%;
 }
