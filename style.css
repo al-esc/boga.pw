@@ -1,0 +1,87 @@
+body {
+    font-family: 'Silkscreen', cursive;
+}
+main {
+    padding: 5vw 10vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(
+            45deg,
+            hsl(0deg 0% 0%) 23%,
+            hsl(120deg 100% 0%) 43%,
+            hsl(120deg 100% 1%) 55%,
+            hsl(110deg 100% 1%) 64%,
+            hsl(113deg 100% 2%) 71%,
+            hsl(120deg 80% 2%) 77%,
+            hsl(120deg 83% 2%) 81%,
+            hsl(115deg 86% 3%) 85%,
+            hsl(116deg 88% 3%) 89%,
+            hsl(116deg 89% 4%) 92%,
+            hsl(117deg 90% 4%) 94%,
+            hsl(117deg 91% 4%) 96%,
+            hsl(115deg 92% 5%) 97%,
+            hsl(115deg 92% 5%) 98%,
+            hsl(118deg 86% 5%) 99%,
+            hsl(118deg 87% 6%) 100%,
+            hsl(116deg 88% 6%) 100%,
+            hsl(116deg 88% 7%) 100%,
+            hsl(116deg 89% 7%) 100%
+    );
+}
+h1, h2 {
+    color: #FFF;
+    text-align: center;
+}
+h1 {
+    font-size: clamp(1.5rem, 5vw + 1rem, 5rem);
+}
+h2 {
+    font-size: clamp(1rem, 3vw + 1rem, 3.75rem);
+}
+a, a:hover, a:visited {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #042202;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-content: space-between;
+    /*column-count: 3;*/
+    /*column-gap: 25px;*/
+    border-radius: 20px;
+    padding: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:
+            -5px -5px 25px #f0f,
+            5px 5px 25px #0ff;
+    background-image: linear-gradient(
+            135deg,
+            hsl(300deg 100% 50%) 1%,
+            hsl(293deg 100% 50%) 34%,
+            hsl(287deg 100% 50%) 43%,
+            hsl(280deg 100% 50%) 47%,
+            hsl(273deg 100% 50%) 50%,
+            hsl(267deg 100% 50%) 51%,
+            hsl(260deg 100% 50%) 51%,
+            hsl(253deg 100% 50%) 51%,
+            hsl(247deg 100% 50%) 51%,
+            hsl(240deg 100% 50%) 50%,
+            hsl(233deg 100% 50%) 49%,
+            hsl(227deg 100% 50%) 49%,
+            hsl(220deg 100% 50%) 49%,
+            hsl(213deg 100% 50%) 49%,
+            hsl(207deg 100% 50%) 50%,
+            hsl(200deg 100% 50%) 53%,
+            hsl(193deg 100% 50%) 57%,
+            hsl(187deg 100% 50%) 66%,
+            hsl(180deg 100% 50%) 99%
+    );
+}
+video {
+    max-width:460px;
+    flex-basis: 30%;
+}
